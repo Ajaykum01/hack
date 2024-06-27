@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "direct-file-bot"]
+	url = https://github.com/biisal/Direct-FileBot.git
+	fetch = +refs/heads/*:refs/remotes/direct-file-bot/*
+[branch "main"]
+	remote = direct-file-bot
+	merge = refs/heads/main
